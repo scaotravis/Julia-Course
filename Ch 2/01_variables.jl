@@ -18,20 +18,24 @@ println(initial)
 println(boolVal)
 
 # Variables can be redefined and change type
+first = 1.0
+println(first)
 
-
-# Strings have to be in double quotes. This will error:
-# anotherstring = 'hello world'
+# Strings have to be in double quotes. This will error: anotherString = 'hello world'
 
 # Constant values are declared with const and are all uppercase
 # Note: this is only useful in the global scope
-
+const CONSTANT = 42
 
 # Constants of the same type *can* be reassigned, but with a warning
-
+CONSTANT = 43
 
 # Constants of different types cannot be reassigned, this is an error
-
+# Cannot do: CONSTANT = 43.0
 
 # Type Annotation identifies a variable as a particular type
+function testFunc()
+    x::String = "some string"    
+end
 
+testFunc()
