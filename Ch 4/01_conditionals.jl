@@ -1,8 +1,7 @@
-# Finished conditional example for Learning Julia
+# Starting point for conditional example for Learning Julia
 
 # Create an if-else conditional
-x = 5
-
+x = 17
 if x < 10
     println("x is small")
 else
@@ -20,4 +19,6 @@ end
 
 # The ternary operator can condense a comparison
 println(x < 10 ? "x is less than 10" : "x is 10 or greater")
-
+# ternary operator condense if-else conditional statement
+# if the condition is true, execute the portion between ? and :
+# if the condition is false, execute the portion after :
