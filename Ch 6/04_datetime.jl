@@ -3,19 +3,19 @@
 # import the Dates module to use the code it contains
 using Dates
 
-# TODO create new Date and DateTime
+# create new Date and DateTime
 
 
-# TODO parse a date or date/time string using DateFormat
+# parse a date or date/time string using DateFormat
 
 
-# TODO differences between Dates and Times
+# differences between Dates and Times
 
 
-# TODO access the values of a date or time
+# access the values of a date or time
 
 
-# TODO query functions
+# query functions
 
 
-# TODO adjuster functions
+# adjuster functions

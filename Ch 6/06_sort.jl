@@ -2,10 +2,10 @@
 
 arr1 = [2, 8, -3, -15, 5, -7, 9, 0, 11]
 
-# TODO sort the data by a simple transformation
+# sort the data by a simple transformation
 
 
-# TODO check to see if an array is already sorted
+# check to see if an array is already sorted
 arrtup = [(1, 2), (2, 1), (3, 5), (4, 0)]
 
 
@@ -17,5 +17,5 @@ end
 
 arr2 = [MyRect(12, 22), MyRect(10, 18),MyRect(7, 12),MyRect(9, 30)]
 
-# TODO declare a custom sorting function
+# declare a custom sorting function
 
